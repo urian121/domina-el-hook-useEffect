@@ -1,4 +1,3 @@
-`
 import { useState, useEffect } from "react";
 
 function HookUseEffect() {
@@ -35,7 +34,7 @@ function HookUseEffect() {
 
   return (
     <div className="container">
-      <h1>Posts</h1>
+      <h1>Domina el Hook useEffect</h1>
       <ul>
         {data.map(post => (
           <li key={post.id} className="post">
@@ -49,4 +48,3 @@ function HookUseEffect() {
 }
 
 export default HookUseEffect;
-`
